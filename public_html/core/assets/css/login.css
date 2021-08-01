@@ -1,0 +1,95 @@
+html {
+  background-color: #181818;
+  color: #fff;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 38rem;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* Standard syntax */
+}
+
+.login-container .padder {
+  margin: 2rem;
+}
+
+.login-container .htext {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.login-container form label b {
+  font-size: 0.75rem;
+  font-weight: 300;
+}
+
+.login-container form a {
+  color: #c9c9c9;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.login-container button {
+  background-color: cyan;
+  color: #181818;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.login-container button:hover {
+  opacity: 0.8;
+}
+
+.login-container input[type="email"],
+.login-container input[type="password"] {
+  background: transparent;
+  color: #fff;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+  border-bottom: 3px solid #ccc;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+.login-container input[type="text"]:focus,
+.login-container input[type="password"]:focus {
+  border-bottom: 3px solid #555;
+  -webkit-animation-name: i-focus;
+  -webkit-animation-duration: 0.5s;
+  animation-name: i-focus;
+  -webkit-animation-duration: 0.5 s;
+          animation-duration: 0.5 s;
+}
+
+@-webkit-keyframes i-focus {
+  from {
+    border-bottom: 3px solid #ccc;
+  }
+  to {
+    border-bottom: 3px solid #555;
+  }
+}
+
+@keyframes i-focus {
+  from {
+    border-bottom: 3px solid #ccc;
+  }
+  to {
+    border-bottom: 3px solid #555;
+  }
+}
+/*# sourceMappingURL=login.css.map */

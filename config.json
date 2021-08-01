@@ -1,0 +1,6 @@
+{
+    "pathNotAllowedIfLoggedIn": [
+        "login",
+        "register"
+    ]
+}
